@@ -35,7 +35,7 @@ jobs:
       security-events: 'write'
 
     strategy:
-      fail-fast: 'false'
+      fail-fast: false
       matrix:
         language: ['go']
 
